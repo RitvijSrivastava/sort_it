@@ -2,6 +2,8 @@
 
 Sort It is a program written in assembly which aims to perform 'next-number-check' sorting using Bubble and Selection Sort.
 
+![Sample Output](sample_output.png)
+
 ## Software needed
 
 The program is built on ***emu8086 emulator*** and uses its inbuilt functions.
@@ -16,6 +18,7 @@ The program is built on ***emu8086 emulator*** and uses its inbuilt functions.
 - The program has been divided into 4 modules: ___MAIN___, ___take_input___, ___print_array___ and ___sort_bubble_asc___.
 
 ### What is yet to be implemented?
+<hr />
 
 - Bubble Sort in descending order.
 - User menu for selecting between ascending or descending
@@ -23,5 +26,6 @@ The program is built on ***emu8086 emulator*** and uses its inbuilt functions.
 - User menu for deciding between selection sort and bubble sort.
 
 #### CREDITS
+<hr />
 
 Created by: [Ritvij Srivastava](https://github.com/RitvijSrivastava)
