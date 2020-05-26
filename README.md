@@ -10,20 +10,15 @@ The program is built on ***emu8086 emulator*** and uses its inbuilt functions.
 
 ## What has been accomplished?
 
-- The program takes input from the user.
-- BUBBLE SORT in ascending order has been implemented right now
+- The program takes input from the user and has toggles for choosing between ascending and descending order and between bubble and selection sort
 
 ## Structure
 
-- The program has been divided into 4 modules: ___MAIN___, ___take_input___, ___print_array___ and ___sort_bubble_asc___.
+- The program has been divided into 9 modules: ___MAIN___, ___take_input___, ___print_array___ and ___sort_bubble_asc___, ___sort_bubble_desc___, ___sort_select_asc___, ___sort_select_desc___, ___asc_or_desc___, ___selection_or_bubble___
 
-### What is yet to be implemented?
-<hr />
+## FLOW
 
-- Bubble Sort in descending order.
-- User menu for selecting between ascending or descending
-- Selection Sort
-- User menu for deciding between selection sort and bubble sort.
+MAIN -> Take Input -> asc_or_desc -> selection_or_bubble (which calls the appropriate functions) -> print_array
 
 #### CREDITS
 <hr />
