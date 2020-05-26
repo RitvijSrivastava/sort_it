@@ -79,12 +79,6 @@ asc_or_desc PROC
     CALL scan_num     ; Predefined procedure to input a number in CX
     MOV AX, 0000H
     MOV AX, CX
-    ;CMP AX, 01H
-    
-    ;JE ASC
-    ;CALL sort_bubble_desc
-    ;RET
-    ;ASC: CALL sort_bubble_asc
      
 RET
 asc_or_desc ENDP    
